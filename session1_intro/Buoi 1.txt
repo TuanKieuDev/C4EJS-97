@@ -1,0 +1,20 @@
+git: commit --> push --> pull 
+						Session 2: Variable (biến)
+
+I.Biến
+Để lưu trữ giá trị
+
+II.Các loại biến
++)Biến số: có khả năng thay đổi giá trị
++)Hằng số: không thay đổi giá trị
+
+III.Cú pháp
+1.Khai báo biến
+   var tenbien;
+   let tenbien;
+Ex: var a;
+2.Gán giá trị cho biến
+   tenbien = gtri;
+3.Khai báo và gán
+   var/let tenbien = gtri;
+   hằng số: const tenbien = gtri;
