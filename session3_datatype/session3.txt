@@ -1,0 +1,51 @@
+					Session 3: Datatype
+1,Kiểu dữ liệu là gì?
+   
+2,Các kiểu dữ liệu
+   +)Number: .)Số nguyên(int)
+	     .)Số thực(float)
+   +)String: chuỗi
+   +)Boolean: true/false
+   +)Array: mảng
+   +)Object
+
+a.Number
+   let a = 5;(biến a có kiểu dữ liệu số nguyên)
+   let b = 3.14 (b có kiểu dữ liệu số thực)
+   let d = a/c 
+- Chuyển kiểu dữ liệu:
+   +)Chuyển sang số nguyên: parseInt(gtri/tenbien)
+   +)Chuyển sang số thực: parseFloat(gtri/tenbien)
+   +)Chuyển sang kiểu số: number(gtri/tenbien)
+Ghi chú: Các hàm này không làm thay đổi kiểu dữ liệu của biến truyền vào
+
+b.String
+   let name = "Hung" --> Chuỗi
+- 3 ký hiệu:" ", ' ', ` `(chèn được string khác)
+- Phép tính trên chuỗi: "Xin chao" + name = string (gộp chuỗi)
+			"2020" - "2000" = 20(NaN / Number)
+			NaN <-> 1 trong 2 chuỗi có kí tự khác số(a->z)
+			Number <-> 2 chuỗi chỉ chứa số
+Cho người dùng nhập vào 2 số, in ra tổng, hiệu, tích, thương của 2 số đó
+
+3,Các phép toán trên số
+   +	-	*	/	%
+==> let a = số
+Cách tăng giảm: a+=5 ;  a/=3...
+	++a: tăng lên 1 đơn vị trước khi thực hiện câu lệnh hiện tại
+	a++: tăng lên 1 đơn vị sau khi thực hiện câu lệnh hiện tại
+	Ex: let a=10;
+	    log(a++);log(a) : 10/11
+	    log(++a);log(a) : 11/11
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+Lấy dữ liệu từ users: prompt("Content");
+
+Quy tắc đặt tên biến:
+   +)Chỉ chứa chữ cái(A-Z,a-z),(0-9),2 ký tự đăc biệt $ và _
+   +)Không được bắt đầu bằng chữ số
+   +)Không được trùng với từ khóa như break, var, let...
+   +)Biến có phân biệt chữ hoa và chữ thường
+Quy ước:
+   +)Đặt tên biến theo phong cách camelCase
+	Ex: year, currentYear, dateOfBirth
+
+Khác nhau var và let:
+	var - pvi lớn
+	let - pvi nhỏ (chỉ trong 1 blockcode)
+
