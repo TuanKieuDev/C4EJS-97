@@ -9,12 +9,12 @@
 // console.log(`Chu vi la: ${(dai+rong)*2}`);
 // console.log(`Dien tich la: ${dai*rong}`);
 
-let x = Number(prompt("Nhap vao x: "));
-console.log("Bai 3: ");
-let y1 = 4*(x*x + 10*x*Math.sqrt(x)+3*x+1);
-console.log("Gia tri cua y1 = "+y1);
-let y2 = (Math.sin(Math.PI*x*x)+Math.sqrt(x*x+1))/(Math.exp(2*x)+Math.cos((Math.PI)/4*x))
-console.log("Gia tri cua y2 = "+y2);
+// let x = Number(prompt("Nhap vao x: "));
+// console.log("Bai 3: ");
+// let y1 = 4*(x*x + 10*x*Math.sqrt(x)+3*x+1);
+// console.log("Gia tri cua y1 = "+y1);
+// let y2 = (Math.sin(Math.PI*x*x)+Math.sqrt(x*x+1))/(Math.exp(2*x)+Math.cos((Math.PI)/4*x))
+// console.log("Gia tri cua y2 = "+y2);
 
 // let X = Number(prompt("Nhap vao so tien: "));
 // let m=X;
@@ -37,3 +37,4 @@ console.log("Gia tri cua y2 = "+y2);
 // let b=Math.floor(X/10);
 // X-=b*10;
 // console.log(`${m} = ${a} + ${b} + ${X} = `+ (a+b+X));
+

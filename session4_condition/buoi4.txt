@@ -1,0 +1,54 @@
+﻿					Session 4:Condition
+Cú pháp:
+ if(condition1){
+    //code
+ }
+//condition true -->run codeblock1
+ else if(condition2){
+    //code
+ }
+//condition1 false, condition2 true -->run codeblock2
+.
+.
+.
+ else{
+    //code
+ }
+//if all conditions are false
+
+cho người dùng nhập vào 1 số, so sánh số đó với 10
+== chỉ so sánh về mặt giá trị
+=== so sánh cả về kiểu và giá trị
+
+switch(variable){
+ case gtri1:	//code;	break;
+ case gtri2:	//code;	break;
+ .
+ .
+ .
+ default:	//code;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

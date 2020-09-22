@@ -1,0 +1,6 @@
+					Session 5: Loop(vòng lặp)
+Cú pháp:
+	for(	;	;    ){
+		//code
+	}
+in ra từ 1 đến 10;in số lẻ từ 0 đến 10;in số chẵn từ 0 đến 10;in từ 10 về 0;

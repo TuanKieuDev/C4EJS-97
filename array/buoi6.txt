@@ -1,0 +1,36 @@
+					Session 6: Array
+let bien = [];
+let bien1 = [gtri1,gtri2,...];
+Truy cập vào mảng:
+   bien[index] --> gtri tại index;
+   index thuộc [0,length);
+Duyệt mảng:
+	for...
+Thêm: bien.push(gtri1,gtri2,...) --> thêm vào cuối
+      bien.unshift(gtri1,gtri2,...) --> thêm vào đầu
+Sửa: a[index] = gtri;
+   nếu index không thuộc [0;length)
+	a[5] = 160 --> thêm vào phần tử 160;
+	a[10] = 170
+Result: [0,1,2,3,4,160,emptyx4,170]
+Xóa: a.splice(index,số phần tử muốn xóa từ vị trí index)
+     a.pop() --> xóa 1 phần tử ở cuối và trả ra các phần tử đó
+     a.shift() --> xóa 1 phần tử ở đầu và trả ra phần tử đó
+Ex: last = heighs.pop();
+    console.log(last) --> Result: 180
+
+Differences between stack and Queue:
+ - Stack: FirstIn - LastOut; (push-pop),(unshift-shift).
+ - Queue: FirstIn - FirstOut; (unshift-pop),(push-shift).
+
+
+
+
+
+
+
+
+
+
+
+
