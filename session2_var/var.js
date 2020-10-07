@@ -124,8 +124,8 @@
 // }
 // console.log(sum);
 
-let N = Number(prompt("Nhap vao N: "));
-let suma = 0, sumb = 0, sumc = 0, sumd = 1, sume1 = 1, sume2 = 0;
+// let N = Number(prompt("Nhap vao N: "));
+// let suma = 0, sumb = 0, sumc = 0, sumd = 1, sume1 = 1, sume2 = 0;
 // console.log("Phan a:");
 // for(let i = 1;i<=N;i++){
 //     suma+=1/i;
@@ -146,12 +146,19 @@ let suma = 0, sumb = 0, sumc = 0, sumd = 1, sume1 = 1, sume2 = 0;
 //     sumd*=i;
 // }
 // console.log(sumd);
-console.log("Phan e:");
-for(let i = 1;i<=N;i++){
-    for(let j = 1;j<=i;j++){
-        sume1*=j;
-    }
-  sume2+=sume1;
-  sume1=1;
+// console.log("Phan e:");
+// for(let i = 1;i<=N;i++){
+//     for(let j = 1;j<=i;j++){
+//         sume1*=j;
+//     }
+//   sume2+=sume1;
+//   sume1=1;
+// }
+// console.log(sume2);
+
+
+let movie = {
+    title : 'Naruto',
+    year : 2012,
+    rate : 8.4
 }
-console.log(sume2);
